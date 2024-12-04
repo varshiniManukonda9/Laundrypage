@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laundry Service Booking</title>
+  <style>
+    /* Basic Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #14e5f7; /* Background Color */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .booking-container {
+      background-color: #fff;
+      width: 100%;
+      max-width: 600px;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .booking-container h2 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    .form-group label {
+      font-size: 16px;
+      color: #333;
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .form-group input,
+    .form-group select {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    .form-group input[type="date"],
+    .form-group input[type="time"] {
+      padding: 12px;
+    }
+
+    /* Style the Book Now Button (a tag) */
+    a.book-btn {
+      background-color: #14e5f7;
+      color: white;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 5px;
+      font-size: 18px;
+      font-weight: bold;
+      display: block;
+      width: 100%;
+      text-align: center;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      text-decoration: none; /* Remove default underline */
+    }
+
+    /* Hover effect for the button */
+    a.book-btn:hover {
+      background-color: #10c2d3;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="booking-container">
+    <h2>Our Services</h2>
+
+    <!-- Booking Form -->
+    <form action="#" method="POST">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="service">Select Service:</label>
+        <select id="service" name="service" required>
+          <option value="washing">Washing</option>
+          <option value="dry-cleaning">Dry Cleaning</option>
+          <option value="ironing">Ironing</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="date">Pick Up Date:</label>
+        <input type="date" id="date" name="date" required>
+      </div>
+
+      <div class="form-group">
+        <label for="time">Pick Up Time:</label>
+        <input type="time" id="time" name="time" required>
+      </div>
+
+      <div class="form-group">
+        <label for="return-date">Return Date:</label>
+        <input type="date" id="return-date" name="return-date" required>
+      </div>
+
+      <div class="form-group">
+        <label for="return-time">Return Time:</label>
+        <input type="time" id="return-time" name="return-time" required>
+      </div>
+
+      <div class="form-group">
+        <label for="instructions">Any Special Instructions:</label>
+        <textarea id="instructions" name="instructions" rows="4" placeholder="Enter any specific details..."></textarea>
+      </div>
+
+      <!-- Book Now Button (a tag) -->
+      <a href="status.html" class="btn book-btn">Book Now</a>
+    </form>
+  </div>
+
+</body>
+</html>

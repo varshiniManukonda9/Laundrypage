@@ -1,0 +1,204 @@
+
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #14e5f7, #ffffff);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden; /* Prevent scrolling on the entire page */
+  }
+  
+  .signup-container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    height: 80%; /* Set a fixed height for the container */
+    overflow-y: auto; /* Enable scrolling within the container */
+    text-align: center;
+    box-sizing: border-box; /* Ensures padding doesn't affect width/height */
+  }
+  
+  h1 {
+    color: #14e5f7;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .signup-form label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  .signup-form input,
+  .signup-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .signup-form textarea {
+    resize: none;
+    height: 80px;
+  }
+  
+ /* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #14e5f7, #ffffff);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden; /* Prevent scrolling on the entire page */
+  }
+  
+  .signup-container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    height: 80%; /* Set a fixed height for the container */
+    overflow-y: auto; /* Enable scrolling within the container */
+    text-align: center;
+    box-sizing: border-box; /* Ensures padding doesn't affect width/height */
+  }
+  
+  h1 {
+    color: #14e5f7;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .signup-form label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  .signup-form input,
+  .signup-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .signup-form textarea {
+    resize: none;
+    height: 80px;
+  }
+  
+  .service-selection h3 {
+    text-align: left;
+    margin: 20px 0 10px;
+    font-size: 16px;
+    color: #14e5f7;
+  }
+  
+  .checkbox-group {
+    display: flex;
+    flex-direction: row; /* Arrange items vertically */
+    gap: 10px; /* Add vertical spacing between rows */
+  }
+  
+  .checkbox-item {
+    display: flex;
+    align-items: center; /* Align checkbox with text vertically */
+  }
+  
+  .checkbox-item input[type="checkbox"] {
+    margin: 0; /* Remove any default spacing */
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    color: #ffffff;
+    background: #14e5f7;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #12c7db;
+  }
+  
+  .login-link {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .login-link a {
+    color: #14e5f7;
+    text-decoration: none;
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    color: #ffffff;
+    background: #14e5f7;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #12c7db;
+  }
+  
+  .login-link {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .login-link a {
+    color: #14e5f7;
+    text-decoration: none;
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+  

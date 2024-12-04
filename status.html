@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Status</title>
+    <style>
+        /* Card Styling */
+        .card {
+            padding-top: 300%;
+            align-self: center;
+            padding: 400px;
+            padding-bottom:200px ;
+            height: 300px;
+            width: 500px; /* Making the card bigger */
+            margin: 150px auto;
+            background-color: #f0f9fc; /* Light pastel background */
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        /* Status Text */
+        .status-text {
+            
+            font-size: 44px;
+            font-weight: bold;
+            color: #14e5f7; /* Matching color */
+            margin-bottom: 50px;
+        }
+
+        /* Buttons Styling */
+        .btn {
+            background-color: #14e5f7; /* Button color */
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 18px;
+            margin: 10px 20px;
+            width: 120px;
+           
+            transition: background-color 0.3s ease;
+        }
+
+        /* Hover Effects */
+        .btn:hover {
+            background-color: #0bb0d4;
+        }
+
+        .reject-btn:hover {
+            background-color: #f56b6b; /* Reject button hover effect with red shade */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="status-text">Booking Status: Pending Confirmation</div>
+        <button class="btn accept-btn">Accept</button>
+        <button class="btn reject-btn">Reject</button>
+    </div>
+
+</body>
+</html>
